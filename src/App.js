@@ -1,7 +1,7 @@
 import React from "react";
 import Game from "./components/Game";
 import Result from "./components/Result";
-import "./App.scss";
+import "./styles/app.css";
 
 const questions = [
   {
@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       {step !== questions.length ? (
         <Game
           question={question}

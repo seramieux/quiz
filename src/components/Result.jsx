@@ -1,3 +1,5 @@
+import "../styles/result.css";
+
 function Result({ correct, questions }) {
   return (
     <div className="result">

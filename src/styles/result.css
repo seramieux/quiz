@@ -1,0 +1,24 @@
+.result {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  background-color: #ff006e;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}

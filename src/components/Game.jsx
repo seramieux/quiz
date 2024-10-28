@@ -1,11 +1,13 @@
-function Game({ question, onClickVariant, questions, step }) {
+import "../styles/game.css";
+
+function Game({ step, question, questions, onClickVariant }) {
   const percentage = Math.round((step / questions.length) * 100);
   return (
-    <>
+    <div>
       <div className="progress">
         <div
           style={{ width: `${percentage}%` }}
-          className="progress__inner"
+          className="progressInner"
         ></div>
       </div>
       <h1>{question.title}</h1>
@@ -16,7 +18,7 @@ function Game({ question, onClickVariant, questions, step }) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 
